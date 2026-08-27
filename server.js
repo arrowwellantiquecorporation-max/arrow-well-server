@@ -54,7 +54,7 @@ app.post("/send-email", async (req, res) => {
     // Send email using Resend
     const { data, error } = await resend.emails.send({
       from: "Arrow Well Antique <onboarding@resend.dev>",
-      to: ["raju543984@gmail.com"],
+      to: ["arrowwellantiquecorporation@gmail.com"],
       replyTo: email,
       subject: `New Contact from ${name}`,
       text: `Name: ${name}
